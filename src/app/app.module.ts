@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { ShopppingListComponent } from './header/shoppping-list/shoppping-list.component';
-import { ShoppingListEditComponent } from './header/shoppping-list/shopping-list-edit/shopping-list-edit.component';
+import { ShoppingListComponent } from './header/shopping-list/shopping-list.component';
+import { ShoppingListEditComponent } from './header/shopping-list/shopping-list-edit/shopping-list-edit.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ShopppingListComponent,
+    ShoppingListComponent,
     ShoppingListEditComponent,
     HeaderComponent
   ],
